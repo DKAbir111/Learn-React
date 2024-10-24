@@ -50,6 +50,7 @@
   padding: 5px;
   background-color: rgba(137, 43, 226, 0.401);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  margin: 5px;
 
 }
 
@@ -69,4 +70,12 @@
   box-shadow: 5px 5px 5px rgb(211, 205, 205);
   transition-duration: .5s;
   transform: scale(1.05);
+}
+
+.user {
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 15px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(105, 193, 85);
 }

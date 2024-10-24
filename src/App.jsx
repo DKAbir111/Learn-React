@@ -1,32 +1,24 @@
 import './App.css';
 import Todo from './Todo';
 import Condition from './Condition';
+import Count from './Count';
+import Friends from './Friends';
+// import Users from './Users';
 
 function App() {
   const Person = { name: "Abir", age: 21, gender: "Male" }
+  // const Person1 = { name: "Sabbir", age: 20, gender: "Female" }
   return (
     <>
       <h1>This is my first React app with Vite</h1>
-      <Student firstName="Salam" />
       <Todo />
       <Condition Person={Person} />
+      {/* <Condition Person={Person1} /> */}
+      <Count />
+      {/* <Users /> */}
+      <Friends />
     </>
   );
 }
-
-function Student(props) {
-  const { firstName } = props;
-  const studentStyle = {
-    color: "red",
-    border: "2px solid black",
-    borderRadius: "20px"
-  }
-  return (
-    <>
-      <h2 style={studentStyle} className='student'>This is a student component: {firstName}</h2>
-    </>
-  );
-}
-
 
 export default App;
